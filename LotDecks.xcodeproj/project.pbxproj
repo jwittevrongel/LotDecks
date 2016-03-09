@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -208,7 +208,7 @@
 				};
 			};
 			buildConfigurationList = 276977D21C8FC710005A1DC3 /* Build configuration list for PBXProject "LotDecks" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -488,6 +488,7 @@
 				276978031C8FC710005A1DC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		276978041C8FC710005A1DC3 /* Build configuration list for PBXNativeTarget "LotDecksTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				276978061C8FC710005A1DC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		276978071C8FC710005A1DC3 /* Build configuration list for PBXNativeTarget "LotDecksUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				276978091C8FC710005A1DC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
