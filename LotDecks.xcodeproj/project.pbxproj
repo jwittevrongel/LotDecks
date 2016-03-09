@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276977DB1C8FC710005A1DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276977DA1C8FC710005A1DC3 /* AppDelegate.swift */; };
+		276977DD1C8FC710005A1DC3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276977DC1C8FC710005A1DC3 /* MasterViewController.swift */; };
+		276977DF1C8FC710005A1DC3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276977DE1C8FC710005A1DC3 /* DetailViewController.swift */; };
+		276977E21C8FC710005A1DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276977E01C8FC710005A1DC3 /* Main.storyboard */; };
+		276977E41C8FC710005A1DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276977E31C8FC710005A1DC3 /* Assets.xcassets */; };
+		276977E71C8FC710005A1DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276977E51C8FC710005A1DC3 /* LaunchScreen.storyboard */; };
+		276977F21C8FC710005A1DC3 /* LotDecksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276977F11C8FC710005A1DC3 /* LotDecksTests.swift */; };
+		276977FD1C8FC710005A1DC3 /* LotDecksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276977FC1C8FC710005A1DC3 /* LotDecksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		276977EE1C8FC710005A1DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276977CF1C8FC710005A1DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276977D61C8FC710005A1DC3;
+			remoteInfo = LotDecks;
+		};
+		276977F91C8FC710005A1DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276977CF1C8FC710005A1DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276977D61C8FC710005A1DC3;
+			remoteInfo = LotDecks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		276977D71C8FC710005A1DC3 /* LotDecks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotDecks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276977DA1C8FC710005A1DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		276977DC1C8FC710005A1DC3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		276977DE1C8FC710005A1DC3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		276977E11C8FC710005A1DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		276977E31C8FC710005A1DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		276977E61C8FC710005A1DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		276977E81C8FC710005A1DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276977ED1C8FC710005A1DC3 /* LotDecksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotDecksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276977F11C8FC710005A1DC3 /* LotDecksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotDecksTests.swift; sourceTree = "<group>"; };
+		276977F31C8FC710005A1DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276977F81C8FC710005A1DC3 /* LotDecksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotDecksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276977FC1C8FC710005A1DC3 /* LotDecksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotDecksUITests.swift; sourceTree = "<group>"; };
+		276977FE1C8FC710005A1DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276977D41C8FC710005A1DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276977EA1C8FC710005A1DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276977F51C8FC710005A1DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276977CE1C8FC710005A1DC3 = {
+			isa = PBXGroup;
+			children = (
+				276977D91C8FC710005A1DC3 /* LotDecks */,
+				276977F01C8FC710005A1DC3 /* LotDecksTests */,
+				276977FB1C8FC710005A1DC3 /* LotDecksUITests */,
+				276977D81C8FC710005A1DC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		276977D81C8FC710005A1DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276977D71C8FC710005A1DC3 /* LotDecks.app */,
+				276977ED1C8FC710005A1DC3 /* LotDecksTests.xctest */,
+				276977F81C8FC710005A1DC3 /* LotDecksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276977D91C8FC710005A1DC3 /* LotDecks */ = {
+			isa = PBXGroup;
+			children = (
+				276977DA1C8FC710005A1DC3 /* AppDelegate.swift */,
+				276977DC1C8FC710005A1DC3 /* MasterViewController.swift */,
+				276977DE1C8FC710005A1DC3 /* DetailViewController.swift */,
+				276977E01C8FC710005A1DC3 /* Main.storyboard */,
+				276977E31C8FC710005A1DC3 /* Assets.xcassets */,
+				276977E51C8FC710005A1DC3 /* LaunchScreen.storyboard */,
+				276977E81C8FC710005A1DC3 /* Info.plist */,
+			);
+			path = LotDecks;
+			sourceTree = "<group>";
+		};
+		276977F01C8FC710005A1DC3 /* LotDecksTests */ = {
+			isa = PBXGroup;
+			children = (
+				276977F11C8FC710005A1DC3 /* LotDecksTests.swift */,
+				276977F31C8FC710005A1DC3 /* Info.plist */,
+			);
+			path = LotDecksTests;
+			sourceTree = "<group>";
+		};
+		276977FB1C8FC710005A1DC3 /* LotDecksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				276977FC1C8FC710005A1DC3 /* LotDecksUITests.swift */,
+				276977FE1C8FC710005A1DC3 /* Info.plist */,
+			);
+			path = LotDecksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276977D61C8FC710005A1DC3 /* LotDecks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276978011C8FC710005A1DC3 /* Build configuration list for PBXNativeTarget "LotDecks" */;
+			buildPhases = (
+				276977D31C8FC710005A1DC3 /* Sources */,
+				276977D41C8FC710005A1DC3 /* Frameworks */,
+				276977D51C8FC710005A1DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotDecks;
+			productName = LotDecks;
+			productReference = 276977D71C8FC710005A1DC3 /* LotDecks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		276977EC1C8FC710005A1DC3 /* LotDecksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276978041C8FC710005A1DC3 /* Build configuration list for PBXNativeTarget "LotDecksTests" */;
+			buildPhases = (
+				276977E91C8FC710005A1DC3 /* Sources */,
+				276977EA1C8FC710005A1DC3 /* Frameworks */,
+				276977EB1C8FC710005A1DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276977EF1C8FC710005A1DC3 /* PBXTargetDependency */,
+			);
+			name = LotDecksTests;
+			productName = LotDecksTests;
+			productReference = 276977ED1C8FC710005A1DC3 /* LotDecksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		276977F71C8FC710005A1DC3 /* LotDecksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276978071C8FC710005A1DC3 /* Build configuration list for PBXNativeTarget "LotDecksUITests" */;
+			buildPhases = (
+				276977F41C8FC710005A1DC3 /* Sources */,
+				276977F51C8FC710005A1DC3 /* Frameworks */,
+				276977F61C8FC710005A1DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276977FA1C8FC710005A1DC3 /* PBXTargetDependency */,
+			);
+			name = LotDecksUITests;
+			productName = LotDecksUITests;
+			productReference = 276977F81C8FC710005A1DC3 /* LotDecksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276977CF1C8FC710005A1DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jeremiah Wittevrongel";
+				TargetAttributes = {
+					276977D61C8FC710005A1DC3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					276977EC1C8FC710005A1DC3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 276977D61C8FC710005A1DC3;
+					};
+					276977F71C8FC710005A1DC3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 276977D61C8FC710005A1DC3;
+					};
+				};
+			};
+			buildConfigurationList = 276977D21C8FC710005A1DC3 /* Build configuration list for PBXProject "LotDecks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 276977CE1C8FC710005A1DC3;
+			productRefGroup = 276977D81C8FC710005A1DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276977D61C8FC710005A1DC3 /* LotDecks */,
+				276977EC1C8FC710005A1DC3 /* LotDecksTests */,
+				276977F71C8FC710005A1DC3 /* LotDecksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276977D51C8FC710005A1DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276977E71C8FC710005A1DC3 /* LaunchScreen.storyboard in Resources */,
+				276977E41C8FC710005A1DC3 /* Assets.xcassets in Resources */,
+				276977E21C8FC710005A1DC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276977EB1C8FC710005A1DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276977F61C8FC710005A1DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276977D31C8FC710005A1DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276977DF1C8FC710005A1DC3 /* DetailViewController.swift in Sources */,
+				276977DD1C8FC710005A1DC3 /* MasterViewController.swift in Sources */,
+				276977DB1C8FC710005A1DC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276977E91C8FC710005A1DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276977F21C8FC710005A1DC3 /* LotDecksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276977F41C8FC710005A1DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276977FD1C8FC710005A1DC3 /* LotDecksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		276977EF1C8FC710005A1DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276977D61C8FC710005A1DC3 /* LotDecks */;
+			targetProxy = 276977EE1C8FC710005A1DC3 /* PBXContainerItemProxy */;
+		};
+		276977FA1C8FC710005A1DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276977D61C8FC710005A1DC3 /* LotDecks */;
+			targetProxy = 276977F91C8FC710005A1DC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		276977E01C8FC710005A1DC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276977E11C8FC710005A1DC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		276977E51C8FC710005A1DC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276977E61C8FC710005A1DC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		276977FF1C8FC710005A1DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		276978001C8FC710005A1DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276978021C8FC710005A1DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LotDecks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.wittevrongel.LotDecks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		276978031C8FC710005A1DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LotDecks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.wittevrongel.LotDecks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		276978051C8FC710005A1DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LotDecksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.wittevrongel.LotDecksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotDecks.app/LotDecks";
+			};
+			name = Debug;
+		};
+		276978061C8FC710005A1DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LotDecksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.wittevrongel.LotDecksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotDecks.app/LotDecks";
+			};
+			name = Release;
+		};
+		276978081C8FC710005A1DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LotDecksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.wittevrongel.LotDecksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LotDecks;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		276978091C8FC710005A1DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LotDecksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.wittevrongel.LotDecksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LotDecks;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276977D21C8FC710005A1DC3 /* Build configuration list for PBXProject "LotDecks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276977FF1C8FC710005A1DC3 /* Debug */,
+				276978001C8FC710005A1DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276978011C8FC710005A1DC3 /* Build configuration list for PBXNativeTarget "LotDecks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276978021C8FC710005A1DC3 /* Debug */,
+				276978031C8FC710005A1DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		276978041C8FC710005A1DC3 /* Build configuration list for PBXNativeTarget "LotDecksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276978051C8FC710005A1DC3 /* Debug */,
+				276978061C8FC710005A1DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		276978071C8FC710005A1DC3 /* Build configuration list for PBXNativeTarget "LotDecksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276978081C8FC710005A1DC3 /* Debug */,
+				276978091C8FC710005A1DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 276977CF1C8FC710005A1DC3 /* Project object */;
+}
