@@ -15,6 +15,7 @@
 		276977E71C8FC710005A1DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276977E51C8FC710005A1DC3 /* LaunchScreen.storyboard */; };
 		276977F21C8FC710005A1DC3 /* LotDecksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276977F11C8FC710005A1DC3 /* LotDecksTests.swift */; };
 		276977FD1C8FC710005A1DC3 /* LotDecksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276977FC1C8FC710005A1DC3 /* LotDecksUITests.swift */; };
+		9E80B3A7D6B450FF0BF82FD8 /* Pods_LotDecks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C5F3069519FB876A648F66 /* Pods_LotDecks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26C5F3069519FB876A648F66 /* Pods_LotDecks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LotDecks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		276977D71C8FC710005A1DC3 /* LotDecks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotDecks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276977DA1C8FC710005A1DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		276977DC1C8FC710005A1DC3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		276977F81C8FC710005A1DC3 /* LotDecksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotDecksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		276977FC1C8FC710005A1DC3 /* LotDecksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotDecksUITests.swift; sourceTree = "<group>"; };
 		276977FE1C8FC710005A1DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE4197F44F0697AF071CEF9 /* Pods-LotDecks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotDecks.release.xcconfig"; path = "Pods/Target Support Files/Pods-LotDecks/Pods-LotDecks.release.xcconfig"; sourceTree = "<group>"; };
+		E84376E438D4E94A844E0FF6 /* Pods-LotDecks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotDecks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LotDecks/Pods-LotDecks.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E80B3A7D6B450FF0BF82FD8 /* Pods_LotDecks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		255599FA5E86B9EC8F3DD7AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E84376E438D4E94A844E0FF6 /* Pods-LotDecks.debug.xcconfig */,
+				CBE4197F44F0697AF071CEF9 /* Pods-LotDecks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		276977CE1C8FC710005A1DC3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +97,8 @@
 				276977F01C8FC710005A1DC3 /* LotDecksTests */,
 				276977FB1C8FC710005A1DC3 /* LotDecksUITests */,
 				276977D81C8FC710005A1DC3 /* Products */,
+				255599FA5E86B9EC8F3DD7AE /* Pods */,
+				308079B6B646E5C1C0081FC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +144,14 @@
 			path = LotDecksUITests;
 			sourceTree = "<group>";
 		};
+		308079B6B646E5C1C0081FC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26C5F3069519FB876A648F66 /* Pods_LotDecks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 276978011C8FC710005A1DC3 /* Build configuration list for PBXNativeTarget "LotDecks" */;
 			buildPhases = (
+				A1523CFA5ACF072AC84EC1B4 /* Check Pods Manifest.lock */,
 				276977D31C8FC710005A1DC3 /* Sources */,
 				276977D41C8FC710005A1DC3 /* Frameworks */,
 				276977D51C8FC710005A1DC3 /* Resources */,
+				218F6B4D09B0C6664E9C9872 /* Embed Pods Frameworks */,
+				FB738434708CE942C2C135CB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		218F6B4D09B0C6664E9C9872 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LotDecks/Pods-LotDecks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1523CFA5ACF072AC84EC1B4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB738434708CE942C2C135CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LotDecks/Pods-LotDecks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		276977D31C8FC710005A1DC3 /* Sources */ = {
@@ -401,6 +476,7 @@
 		};
 		276978021C8FC710005A1DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84376E438D4E94A844E0FF6 /* Pods-LotDecks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LotDecks/Info.plist;
@@ -412,6 +488,7 @@
 		};
 		276978031C8FC710005A1DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBE4197F44F0697AF071CEF9 /* Pods-LotDecks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LotDecks/Info.plist;
