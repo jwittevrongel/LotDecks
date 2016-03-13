@@ -15,6 +15,8 @@
 		276977E71C8FC710005A1DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276977E51C8FC710005A1DC3 /* LaunchScreen.storyboard */; };
 		276977F21C8FC710005A1DC3 /* LotDecksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276977F11C8FC710005A1DC3 /* LotDecksTests.swift */; };
 		276977FD1C8FC710005A1DC3 /* LotDecksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276977FC1C8FC710005A1DC3 /* LotDecksUITests.swift */; };
+		27CEAD141C94C213004026AF /* cards.db in Resources */ = {isa = PBXBuildFile; fileRef = 27CEAD131C94C213004026AF /* cards.db */; };
+		27CEAD161C94C47F004026AF /* CardDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CEAD151C94C47F004026AF /* CardDatabase.swift */; };
 		9E80B3A7D6B450FF0BF82FD8 /* Pods_LotDecks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C5F3069519FB876A648F66 /* Pods_LotDecks.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		276977F81C8FC710005A1DC3 /* LotDecksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotDecksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		276977FC1C8FC710005A1DC3 /* LotDecksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotDecksUITests.swift; sourceTree = "<group>"; };
 		276977FE1C8FC710005A1DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CEAD131C94C213004026AF /* cards.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = cards.db; sourceTree = "<group>"; };
+		27CEAD151C94C47F004026AF /* CardDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDatabase.swift; sourceTree = "<group>"; };
 		CBE4197F44F0697AF071CEF9 /* Pods-LotDecks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotDecks.release.xcconfig"; path = "Pods/Target Support Files/Pods-LotDecks/Pods-LotDecks.release.xcconfig"; sourceTree = "<group>"; };
 		E84376E438D4E94A844E0FF6 /* Pods-LotDecks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotDecks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LotDecks/Pods-LotDecks.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +119,7 @@
 		276977D91C8FC710005A1DC3 /* LotDecks */ = {
 			isa = PBXGroup;
 			children = (
+				27CEAD131C94C213004026AF /* cards.db */,
 				276977DA1C8FC710005A1DC3 /* AppDelegate.swift */,
 				276977DC1C8FC710005A1DC3 /* MasterViewController.swift */,
 				276977DE1C8FC710005A1DC3 /* DetailViewController.swift */,
@@ -122,6 +127,7 @@
 				276977E31C8FC710005A1DC3 /* Assets.xcassets */,
 				276977E51C8FC710005A1DC3 /* LaunchScreen.storyboard */,
 				276977E81C8FC710005A1DC3 /* Info.plist */,
+				27CEAD151C94C47F004026AF /* CardDatabase.swift */,
 			);
 			path = LotDecks;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				276977E71C8FC710005A1DC3 /* LaunchScreen.storyboard in Resources */,
+				27CEAD141C94C213004026AF /* cards.db in Resources */,
 				276977E41C8FC710005A1DC3 /* Assets.xcassets in Resources */,
 				276977E21C8FC710005A1DC3 /* Main.storyboard in Resources */,
 			);
@@ -334,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CEAD161C94C47F004026AF /* CardDatabase.swift in Sources */,
 				276977DF1C8FC710005A1DC3 /* DetailViewController.swift in Sources */,
 				276977DD1C8FC710005A1DC3 /* MasterViewController.swift in Sources */,
 				276977DB1C8FC710005A1DC3 /* AppDelegate.swift in Sources */,
