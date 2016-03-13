@@ -7,13 +7,14 @@
 //
 
 import UIKit
+import SQLite
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
-
-    var detailItem: AnyObject? {
+    @IBOutlet weak var detailImage: UIImageView!
+    var cardDatabase : CardDatabase? = nil
+    
+    var detailItem: Row? {
         didSet {
             // Update the view.
             self.configureView()
@@ -22,9 +23,10 @@ class DetailViewController: UIViewController {
 
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
+        if let item = self.detailItem {
+            if let imageView = self.detailImage {
+                let image = self.cardDatabase!.getImageForHero(item[self.cardDatabase!.col_id])
+                imageView.image = image
             }
         }
     }
@@ -32,6 +34,13 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        do {
+            self.cardDatabase = try CardDatabase()
+        }
+        catch {
+            
+        }
+
         self.configureView()
     }
 
